@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -6,8 +5,50 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
-  <title></title>
+  <title>Language Suggester</title>
 </head>
 <body>
+  <div class="container">
+    <h1>Which programming language is right for you?</h1>
+    <h2>Answer the questions to find out!</h2>
+    <form id="language">
+      <label for="risk">When something dangerous is in your way.. </label>
+      <select class="form-control" id="risk">
+        <option value="1">you fight!</option>
+        <option value="2">you freeze!</option>
+        <option value="3">you flee!</option>
+        <option value="4">you are the danger!</option>
+      </select>
+      <button type="button" class="btn btn-outline-primary btn-lg btn-block">Which programming language is right for me?!</button>
+    </form>
+    <div class="card" id="javascript">
+      <img class="card-img-top" src="" alt="Javascript logo">
+      <div class="card-body">
+        <h2 class="card-title">You should learn Javascript!</h2>
+        <h5 class="card-subtitle text-muted">Over 97% of websites use Javascript!</h5>
+        <p class="card-text">info about javscript here</p>
+        <a href="" class="card-link">Javascript link</a>
+      </div>
+    </div>
+    <div class="card" id="python">
+      <img class="card-img-top" src="" alt="Python logo">
+      <div class="card-body">
+        <h2 class="card-title">You should learn Python!</h2>
+        <h5 class="card-subtitle text-muted">python fact</h5>
+        <p class="card-text">info about python here</p>
+        <a href="" class="card-link">Python link</a>
+      </div>
+    </div>
+    <div class="card" id="rust">
+      <img class="card-img-top" src="" alt="Rust logo">
+      <div class="card-body">
+        <h2 class="card-title">You should learn Rust!</h2>
+        <h5 class="card-subtitle text-muted">Rust fact</h5>
+        <p class="card-text">info about rust here</p>
+        <a href="" class="card-link">rust link</a>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
