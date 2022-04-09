@@ -12,17 +12,36 @@
     <h1>Which programming language is right for you?</h1>
     <h2>Answer the questions to find out!</h2>
     <form id="language">
-      <label for="risk">When something dangerous is in your way.. </label>
+      <div class="form-group">
+        <label for="name">What is your name?</label>
+        <input id="name" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="langGuess">What programming language do you think you would like to learn?</label>
+        <input id="langGuess" class="form-control" type="text">
+      </div>
+      <label for="risk">When you are faced with something dangerous.. </label>
       <select class="form-control" id="risk">
         <option value="1">you fight!</option>
         <option value="2">you freeze!</option>
         <option value="3">you flee!</option>
         <option value="4">you are the danger!</option>
       </select>
+      <label for="dog">Pick a dog: </label>
+      <select class="form-control" id="risk">
+        <option value="1">lab</option>
+        <option value="2">mutt</option>
+        <option value="3">pit-bull</option>
+        <option value="4">I don't like dogs.</option>
+      </select>
+      <div class="form-group">
+        <label for="color">What is your favorite color?</label>
+        <input id="color" class="form-control" type="color">
+      </div>
       <button type="button" class="btn btn-outline-primary btn-lg btn-block">Which programming language is right for me?!</button>
     </form>
     <div class="card" id="javascript">
-      <img class="card-img-top" src="" alt="Javascript logo">
+      <img class="card-img-top" src="img/js.png" alt="Javascript logo">
       <div class="card-body">
         <h2 class="card-title">You should learn Javascript!</h2>
         <h5 class="card-subtitle text-muted">Over 97% of websites use Javascript!</h5>
@@ -31,7 +50,7 @@
       </div>
     </div>
     <div class="card" id="python">
-      <img class="card-img-top" src="" alt="Python logo">
+      <img class="card-img-top" src="img/python.png" alt="Python logo">
       <div class="card-body">
         <h2 class="card-title">You should learn Python!</h2>
         <h5 class="card-subtitle text-muted">python fact</h5>
@@ -40,7 +59,7 @@
       </div>
     </div>
     <div class="card" id="rust">
-      <img class="card-img-top" src="" alt="Rust logo">
+      <img class="card-img-top" src="img/rust.png" alt="Rust logo">
       <div class="card-body">
         <h2 class="card-title">You should learn Rust!</h2>
         <h5 class="card-subtitle text-muted">Rust fact</h5>
