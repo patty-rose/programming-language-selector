@@ -1,7 +1,12 @@
 body{
   margin: 100px 250px 100px 250px;
-  background-image: linear-gradient(to bottom right, #1d2e3c, #0d3452, #e6c3a3);
+  background-image: linear-gradient(to bottom right,#0d3452, #e6c3a3);
   color:antiquewhite;
+}
+
+label{
+  margin: 10px;
+  font-size: 25px;
 }
 
 .card{
@@ -10,16 +15,7 @@ body{
   font-weight: bolder;
 }
 
-.card-link{
-  text-align: center;
-}
-
-label{
-  margin: 10px;
-  font-size: 25px;
-}
-
-/* #javascript{
+#javascript{
   display: none;
 }
 
@@ -29,4 +25,4 @@ label{
 
 #rust{
   display: none;
-} */
+}
