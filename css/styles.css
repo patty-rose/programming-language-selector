@@ -1,5 +1,12 @@
 body{
-  margin: 50px;
+  margin: 100px 250px 100px 250px;
+  background-image: linear-gradient(to bottom right, #485d6d, #0d3452, #e6c3a3);
+  color:antiquewhite;
+}
+
+#name{
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 label{
