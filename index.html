@@ -10,14 +10,14 @@
 <body>
   <div class="container">
     <h1>Which programming language is right for you?</h1>
-    <h2>Answer the questions to find out!</h2>
+    <h2 class="hide">Answer the questions to find out!</h2>
     <form id="language">
       <div class="form-group">
         <label for="name">What is your name?</label>
         <input id="name" class="form-control" type="text">
       </div>
       <div class="form-group">
-        <label for="langGuess">What programming language do you think you would like to learn?</label>
+        <label for="langGuess">Guess a language! Pick any programming language you think you would like to learn!</label>
         <input id="langGuess" class="form-control" type="text">
       </div>
       <label for="risk">When you are faced with something dangerous.. </label>
@@ -38,34 +38,33 @@
         <label for="color">What is your favorite color?</label>
         <input id="color" class="form-control" type="color">
       </div>
-      <button type="submit" class="btn btn-outline-primary btn-lg btn-block">"Which language is right for me?!"</button>
+      <button type="submit" class="btn btn-outline-light btn-lg btn-block">"Which language is right for me?!"</button>
     </form>
     <div class="card" id="javascript">
       <div class="card-body">
         <h2 class="card-title"><span class="name"></h2>
-        <h5 class="card-subtitle text-muted">Over 97% of websites use Javascript!</h5>
-        <p class="card-text">info about javscript here</p>
-        <a href="" class="card-link">Javascript link</a>
+        <h5 class="card-subtitle text-muted">JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.</h5>
+
+        <a href="https://www.epicodus.com/" class="card-link">Start learning Javascript today!</a>
       </div>
       <img src="img/js.png" class="card-img-bottom" alt="Javascript logo">
     </div>
     <div class="card" id="python">
-      <img class="card-img-top" src="img/python.png" alt="Python logo">
       <div class="card-body">
-        <h2 class="card-title">You should learn Python!</h2>
-        <h5 class="card-subtitle text-muted">python fact</h5>
-        <p class="card-text">info about python here</p>
-        <a href="" class="card-link">Python link</a>
+        <h2 class="card-title"><span class="name"></h2>
+        <h5 class="card-subtitle text-muted">Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small- and large-scale projects.</h5>
+        <a href="https://www.epicodus.com/" class="card-link">Start learning Python today!</a>
       </div>
+      <img src="img/python.png" class="card-img-bottom" alt="Javascript logo">
     </div>
     <div class="card" id="rust">
-      <img class="card-img-top" src="img/rust.png" alt="Rust logo">
       <div class="card-body">
-        <h2 class="card-title">You should learn Rust!</h2>
-        <h5 class="card-subtitle text-muted">Rust fact</h5>
-        <p class="card-text">info about rust here</p>
-        <a href="" class="card-link">rust link</a>
+        <h2 class="card-title"><span class="name"></h2>
+        <h5 class="card-subtitle text-muted">Rust is a multi-paradigm, general-purpose programming language designed for performance and safety, especially safe concurrency. Rust is syntactically similar to C++, but can guarantee memory safety by using a borrow checker to validate references. Rust achieves memory safety without garbage collection, and reference counting is optional. Rust has been called a systems programming language, and in addition to high-level features such as functional programming it also offers mechanisms for low-level memory management.</h5>
+        <a href="https://www.epicodus.com/" class="card-link">Start learning Rust today!</a>
       </div>
+      <img src="img/rust.png" class="card-img-bottom" alt="Javascript logo">
+    </div>
     </div>
   </div>
 

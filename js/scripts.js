@@ -1,9 +1,8 @@
 function languageCheck(langGuess, lang) {
   langGuess = langGuess.toLowerCase();
   langLowerCase = lang.toLowerCase();
-  let langCheck = ""
-  let strCheck = langGuess.search(langLowerCase);
-  if (strCheck === -1) {
+  let langSearch = langGuess.search(langLowerCase);
+  if (langSearch === -1) {
     return langGuess.charAt(0).toUpperCase() + langGuess.slice(1) + " would be fun to learn! But we think you should learn " + lang + "!";
   } return ("you were right! You should learn " + lang + "!");
 };
@@ -11,6 +10,7 @@ function languageCheck(langGuess, lang) {
 jQuery(document).ready(function() {
   $("form#language").submit(function(event) {
     event.preventDefault();
+
     $(".hide").hide();
     $("#language").hide();
     $("#javascript").hide();
